@@ -1,0 +1,19 @@
+{
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "browsers": [
+              "defaults",
+              "not IE 11",
+              "Chrome >= 69"
+            ]
+          },
+          "useBuiltIns": "usage",
+          "corejs": 3
+        }
+      ]
+    ]
+  }
+  
